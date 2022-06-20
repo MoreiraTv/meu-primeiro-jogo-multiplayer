@@ -1,8 +1,10 @@
 ## Estou criando meu primeiro jogo com a plaforma multiplayer
 
-- [x] Canvas e e players e fruit fictisio para implementação
-- [x] Logica de funcionamento e funções de captura de inputs no front-end
-- [x] Funções de player move
-- [x] Propagando mudanças com Observer and Subject
-- [x] Funções de player add e remove
-- [x] Funções de fruit add e remove
+- ✅ Canvas e e players e fruit fictisio para implementação
+- ✅ Logica de funcionamento e funções de captura de inputs no front-end
+- ✅ Funções de player move
+- ✅ Propagando mudanças com Observer and Subject
+- ✅ Funções de player add e remove
+- ✅ Funções de fruit add e remove
+- ✅ Logica e função de colição com fruta e player
+- ⬛ Comparticionar modulos e funções
