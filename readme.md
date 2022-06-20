@@ -10,5 +10,5 @@
 - ✅ Comparticionar modulos e funções
 - ✅ Adicionando express
 - ✅ Criar server back-end
-- ⬛ Fazendo conexão do Client e Server enviando dados do game com Socket.io
+- ✅ Fazendo conexão do Client e Server enviando dados do game com Socket.io
 - ⬛ Adicionando DarkMode
