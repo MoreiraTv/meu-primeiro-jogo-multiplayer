@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meu Primeiro Jogo Multiplayer</title>
     <style>
-      *{
-        background-color: rgb(39, 39, 39)
+      * {
+        background-color: rgb(39, 39, 39);
       }
       #screen {
         border: 10px solid rgb(255, 255, 255);
@@ -24,23 +24,30 @@
     <canvas id="screen" width="10" height="10"> </canvas>
 
     <script type="module">
-      import renderScreen from './render-screen.js'
-      import createGame from './game.js'
-      import createKeyboardListener from './keyboard-listener.js'
+      import renderScreen from "./render-screen.js";
+      import createGame from "./game.js";
+      import createKeyboardListener from "./keyboard-listener.js";
 
       const game = createGame();
       const keyboardListener = createKeyboardListener(document);
       keyboardListener.subscribe(game.movePlayer);
-      
-      const screen = document.getElementById("screen");
-      renderScreen(screen, game);   
-      
-      const socket = io()
 
-      socket.on('connect', () => {
-        const playerId = socket.id
-        console.log(`> Player connected on Client with id: ${playerId}`)
-      })
+      const screen = document.getElementById("screen");
+      renderScreen(screen, game);
+
+      const socket = io();
+
+      socket.on("connect", () => {
+        const playerId = socket.id;
+        console.log(`> Player connected on Client with id: ${playerId}`);
+      });
+
+      socket.on("setup", (state) => {
+        console.log(`> Receibing "setup" event from server`);
+        console.log(state);
+
+        game.state = state;
+      });
     </script>
   </body>
 </html>
