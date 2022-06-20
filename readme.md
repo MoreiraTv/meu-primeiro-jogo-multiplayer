@@ -12,5 +12,10 @@
 - ✅ Criar server back-end
 - ✅ Fazendo conexão do Client e Server enviando dados do game com Socket.io
 - ✅ Sicronizar dados de players com Socket.io para todos os players
-- ⬛ Sicronizar dados das frutas com Socket.io para todos os players
+- ✅ Sicronizar dados das frutas com Socket.io para todos os players
+- ⬛ Reajustar o tamanho do canvas com o tamanho informado no servidor
+- ⬛ Fazer o Unsubscribe dos observers caso caia a conexão
+- ⬛ Sistema de pontuação
+- ⬛ Emitir som a cada ponto marcados / sequencia de pontos
+- ⬛ Bordas infinitas para teleporte no canvas
 - ⬛ Adicionando DarkMode
