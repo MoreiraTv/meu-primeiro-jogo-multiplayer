@@ -8,6 +8,7 @@
 - ✅ Funções de fruit add e remove
 - ✅ Logica e função de colição com fruta e player
 - ✅ Comparticionar modulos e funções
-- ⬛ Adicionando express
-- ⬛ Começar a criar back-end
+- ✅ Adicionando express
+- ✅ Criar server back-end
+- ⬛ Fazendo conexão do Client e Server com Socket.io
 - ⬛ Adicionando DarkMode
