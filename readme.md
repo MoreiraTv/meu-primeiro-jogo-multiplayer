@@ -7,4 +7,7 @@
 - ✅ Funções de player add e remove
 - ✅ Funções de fruit add e remove
 - ✅ Logica e função de colição com fruta e player
-- ⬛ Comparticionar modulos e funções
+- ✅ Comparticionar modulos e funções
+- ⬛ Adicionando express
+- ⬛ Começar a criar back-end
+- ⬛ Adicionando DarkMode
