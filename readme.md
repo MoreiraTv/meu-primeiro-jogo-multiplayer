@@ -11,4 +11,6 @@
 - ✅ Adicionando express
 - ✅ Criar server back-end
 - ✅ Fazendo conexão do Client e Server enviando dados do game com Socket.io
+- ✅ Sicronizar dados de players com Socket.io para todos os players
+- ⬛ Sicronizar dados das frutas com Socket.io para todos os players
 - ⬛ Adicionando DarkMode
